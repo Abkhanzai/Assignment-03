@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background:url(./IMG/Back2.jpeg) no-repeat ;
+    background-size: cover;
+    
+    
+    
+    background-position: center;
+}
+header{
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo {
+    position: relative;
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+    font-family: monospace;
+    
+}
+header .nav a{ margin-right: 30px;}
+
+header .nav a{
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 4px 15px ;
+    letter-spacing: 1px;
+    border-radius: 15px 4px ;
+}
+header .nav a:hover{
+    background-color: rgb(236, 193, 52);
+    color: rgb(255, 255, 255);
+}
+
+.content{
+   
+    margin-top: 100px;
+    margin-left: 50vw;
+    
+}
+.content .info h2{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    
+}
+
+.content .info p{
+    
+    color: rgb(248, 216, 70);
+    font-size: 40px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   margin-bottom: 15px;
+}
+.content .info p span{
+    color: aliceblue;
+    font-size: 38px;
+    font-weight: 800;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.content .info-btn {
+    color: rgb(255, 255, 255);
+    background-color: rgb(236, 203, 17);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 8px 12px;
+    font-weight: 600;
+    border-radius: 25px 1px 25px 1px;
+    margin-left: 250px;
+}
+
+.content .info-btn:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(233, 196, 31);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
